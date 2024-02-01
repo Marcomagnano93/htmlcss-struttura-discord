@@ -1,0 +1,40 @@
+/*RESET*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*LAYOUT*/
+
+
+
+/*STYLE*/
+
+
+
+
+
+
+
+
+/*DEBUG*/

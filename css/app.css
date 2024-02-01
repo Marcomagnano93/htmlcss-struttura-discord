@@ -26,6 +26,15 @@ img {
 
 /*LAYOUT*/
 
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 
 /*STYLE*/
@@ -38,3 +47,9 @@ img {
 
 
 /*DEBUG*/
+
+.debug .container {
+	border: 2px dotted black;
+	padding: 20px;
+}
+

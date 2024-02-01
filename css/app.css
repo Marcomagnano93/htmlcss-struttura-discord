@@ -40,6 +40,10 @@ img {
     flex-grow: 1;
 }
 
+.fg__2 {
+    flex-grow: 2;
+}
+
 .fg__3 {
     flex-grow: 3;
 }
@@ -63,9 +67,14 @@ img {
 .debug .row {
 	border: 2px solid red;
 	padding: 20px;
+    
 }
 
-
+.debug .col {
+    border: 2px dotted black;
+    height: 100%;
+    
+}
 
 /*DEBUG bg-color*/
 
@@ -94,13 +103,11 @@ img {
 
 /*debug header navbar*/
 
-
-.debug .col__navbar {
+.debug .orange__navbar{
     background-color: orange;
-    border: 2px dotted black;
-    height: 100%;
-    
 }
+
+
 
 .debug .row__navbar {
     border: 2px solid red;
@@ -112,7 +119,7 @@ img {
 
 
 /*debug main*/
-
+/*section blue */
 .debug .col__blue {
     background-color: blueviolet;
     border: 2px dotted black;
@@ -121,10 +128,23 @@ img {
 }
 
 .debug .row__blue {
-    border: 2px solid red;
     height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* section white */
+.debug .row__white {
+    border: 2px solid red;
+    height: 480px;
+    display: flex;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.pink {
+    background-color: pink;
+}

@@ -56,6 +56,20 @@ img {
     flex-basis: 60%;
 }
 
+.flx__center {
+    display: flex;
+    justify-content: center;
+}
+
+.flx__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flx__left {
+    display: flex;
+    justify-content: flex-start;
+}
 
 
 /*STYLE*/
@@ -116,7 +130,6 @@ img {
 .debug .orange__navbar{
     background-color: orange;
 }
-
 
 
 .debug .row__navbar {
@@ -206,6 +219,5 @@ img {
 .col__footer {
     border: 2px dotted black;
     background-color: orangered;
-    
     
 }

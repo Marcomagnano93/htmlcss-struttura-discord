@@ -36,6 +36,13 @@ img {
 	flex-wrap: wrap;
 }
 
+.fg__1 {
+    flex-grow: 1;
+}
+
+.fg__3 {
+    flex-grow: 3;
+}
 
 /*STYLE*/
 
@@ -103,10 +110,21 @@ img {
     align-items: center;
 }
 
-.fg__1 {
-    flex-grow: 1;
+
+/*debug main*/
+
+.debug .col__blue {
+    background-color: blueviolet;
+    border: 2px dotted black;
+    height: 80%;
+    width: 80%;
 }
 
-.fg__3 {
-    flex-grow: 3;
+.debug .row__blue {
+    border: 2px solid red;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+

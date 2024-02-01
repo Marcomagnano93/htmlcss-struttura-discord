@@ -123,7 +123,7 @@ img {
 .debug .col__blue {
     background-color: blueviolet;
     border: 2px dotted black;
-    height: 80%;
+    height: 90%;
     width: 80%;
 }
 
@@ -148,3 +148,23 @@ img {
 .pink {
     background-color: pink;
 }
+
+/* section gray bis */
+
+.row__green {
+    border: 2px solid red;
+    height: 640px;
+    display: flex;
+}
+
+.green {
+    background-color: green;
+    border: 2px dotted black;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* FOOTER DEBUG */
+
+/* FOOTER NAVBAR SECTION DEBUG */

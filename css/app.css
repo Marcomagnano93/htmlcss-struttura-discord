@@ -53,3 +53,25 @@ img {
 	padding: 20px;
 }
 
+.debug .header-navbar {
+    background-color: aquamarine;
+}
+
+
+.debug .section-blue {
+    background-color: blue;
+}
+
+.debug .section-white {
+    background-color: white;
+}
+
+
+.debug .section-gray {
+    background-color: gray;
+}
+
+
+.debug .footer-black {
+    background-color: black;
+}

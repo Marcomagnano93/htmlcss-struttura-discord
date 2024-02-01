@@ -166,5 +166,17 @@ img {
 
 
 /* FOOTER DEBUG */
+.row__black {
+    border: 2px solid red;
+    height: 560px;
+    display: flex;
+}
 
+.salmon {
+    background-color: salmon;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
 /* FOOTER NAVBAR SECTION DEBUG */

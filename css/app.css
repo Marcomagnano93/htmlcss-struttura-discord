@@ -200,11 +200,12 @@ img {
 }
 
 .azure {
-    background-color: azure;
+    background-color: rgb(9, 163, 163);
 }
 
 .col__footer {
     border: 2px dotted black;
-    height: calc(100% / 2);
-    text-align: center;
+    background-color: orangered;
+    
+    
 }

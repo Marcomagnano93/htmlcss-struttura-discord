@@ -74,7 +74,9 @@ img {
 
 /*STYLE*/
 
-
+.bt__white {
+    border-top: 3px solid white;
+}
 
 
 
@@ -123,6 +125,7 @@ img {
 
 .debug .footer-black {
     background-color: black;
+    
 }
 
 /*debug header navbar*/
@@ -164,23 +167,23 @@ img {
     display: flex;
 }
 
-.aqua {
+.debug .aqua {
     background-color: aqua;
 }
 
-.pink {
+.debug .pink {
     background-color: pink;
 }
 
 /* section gray bis */
 
-.row__green {
+.debug .row__green {
     border: 2px solid red;
     height: 640px;
     display: flex;
 }
 
-.green {
+.debug .green {
     background-color: green;
     border: 2px dotted black;
     height: 100%;
@@ -189,22 +192,22 @@ img {
 
 
 /* FOOTER DEBUG */
-.row__black {
+.debug .row__black {
     border: 2px solid red;
     height: 560px;
     display: flex;
 }
 
-.salmon {
+.debug .salmon {
     background-color: salmon;
 }
 
-.aquamarine {
+.debug .aquamarine {
     background-color: aquamarine;
 }
 /* FOOTER NAVBAR SECTION DEBUG */
 
-.row__footer__navbar {
+.debug .row__footer__navbar {
     border: 2px solid red;
     height: 32px;
     display: flex;
@@ -212,11 +215,11 @@ img {
     align-items: center;
 }
 
-.azure {
+.debug .azure {
     background-color: rgb(9, 163, 163);
 }
 
-.col__footer {
+.debug .col__footer {
     border: 2px dotted black;
     background-color: orangered;
     
